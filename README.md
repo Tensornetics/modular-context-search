@@ -33,6 +33,9 @@ modular-context-search
 │   ├── components/
 │   │   ├── MyComponent.jsx
 │   │   └── OtherComponent.jsx
+│   │   └── UseMyContext.js
+│   │   └── UseConvenientState.js
+│   │   └──
 │   ├── services/
 │   │   ├── db.js
 │   │   ├── search.js

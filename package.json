@@ -1,0 +1,20 @@
+{
+  "name": "modular-context-search",
+  "version": "1.0.0",
+  "description": "A program for limited document interaction",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "elasticsearch": "^7.10.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.10",
+    "pdf-text-extract": "^2.0.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
