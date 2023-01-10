@@ -1,4 +1,4 @@
-## Could you please create a new program under Tensornetics called modular-context-search in which exists as an engine for limited document interaction. It should have a database that can store and recall pdf, word, and other text documents. Please craft a repository for this program using the below as the theme: (Use the most efficient languages for this repository, C++, Go, Python, etc) ##
+### Could you please create a new program under Tensornetics called modular-context-search in which exists an engine for limited document interaction. It should have a database that can store and recall pdf, word, and other text documents. Please craft a repository for this program using the below as the theme: (Use the most efficient languages for this repository, C++, Go, Python, etc) ###
 
 modular-context-search
 ├── src/
@@ -30,7 +30,7 @@ Regarding the engine for limited document interaction, you could use something l
 Regarding the other parts of the repository like states, actions, services, etc. It might be better to use a library such as Redux for managing the state of the application. This would help to keep your code organized and make it easier to manage the different parts of the program.
 I hope this gives you an idea of what's involved in creating a program like the one you've described, and what types of technologies and tools you might use. If you have any other questions or need more information, please let me know!
 ```
-## I agree and would like to continue with your recommendations. Could you redesign my repository and add your recommendations above? ##
+### I agree and would like to continue with your recommendations. Could you redesign my repository and add your recommendations above? ###
 Sure! Here is an updated version of the repository structure that incorporates my recommendations:
 ```
 modular-context-search
