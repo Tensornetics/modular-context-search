@@ -31,8 +31,15 @@ To start the search engine, run `npm run search` this will start the Elasticsear
 modular-context-search
 ├── src/
 │   ├── components/ (Contain React components for building UI)
+    ├── useMyContext.js
 │   ├── services/   (Contain functions for interacting with the database and external APIs)
+    ├── db.js
+    ├── search.js
+    ├── fileParser.js
 │   ├── hooks/     (Contain custom hooks for handling state)
+    ├── useState.js
+    ├── useEffect.js
+    ├── useContext.js
 │   ├── index.js   (The entry point of the application)
 ├── test/
 │   ├── services.test.js 
@@ -45,6 +52,9 @@ modular-context-search
 │   ├── images/
 │   ├── texts/
 ├── node_modules/ (Contain modules installed by npm)
+    ├── mongoose
+    ├── elasticsearch
+    ├── pdf-parse
 ├── .eslintrc.js
 ├── .gitignore
 ├── package.json
