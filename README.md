@@ -30,32 +30,36 @@ To start the search engine, run `npm run search` this will start the Elasticsear
 ```
 modular-context-search
 ├── src/
-│   ├── components/ (Contain React components for building UI)
-    ├── useMyContext.js
-│   ├── services/   (Contain functions for interacting with the database and external APIs)
-    ├── db.js
-    ├── search.js
-    ├── fileParser.js
-│   ├── hooks/     (Contain custom hooks for handling state)
-    ├── useState.js
-    ├── useEffect.js
-    ├── useContext.js
-│   ├── index.js   (The entry point of the application)
+│   ├── components/
+│   │   ├── MyComponent.jsx
+│   │   └── OtherComponent.jsx
+│   ├── services/
+│   │   ├── db.js
+│   │   ├── search.js
+│   │   └── fileParser.js
+│   ├── hooks/
+│   │   ├── useState.js
+│   │   ├── useEffect.js
+│   │   └── useContext.js
+│   ├── index.js
 ├── test/
 │   ├── services.test.js 
 │   ├── components.test.js
 │   ├── hooks.test.js
+├── python_script/
+│   ├── pdf_parser.py
+│   ├── docx_parser.py
 ├── assets/
 │   ├── dictionary.json
 │   ├── translation-database.json
 │   ├── audio/
 │   ├── images/
 │   ├── texts/
-├── node_modules/ (Contain modules installed by npm)
-    ├── mongoose
-    ├── elasticsearch
-    ├── pdf-parse
-├── .eslintrc.js
+├── node_modules/
+│   ├── mongoose
+│   ├── elasticsearch
+│   └── pdf-parser
+├── .eslintrc
 ├── .gitignore
 ├── package.json
 └── README.md
